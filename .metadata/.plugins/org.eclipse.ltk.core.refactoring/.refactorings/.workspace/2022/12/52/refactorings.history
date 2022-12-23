@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;comm_latency_model_system&apos;" deleteContents="true" description="Delete resource &apos;comm_latency_model_system&apos;" element1="/comm_latency_model_system" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1671824368129"/>
+</session>

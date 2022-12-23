@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="comm_latency_model_single_system_hw_link" platform="/opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm" systemProject="comm_latency_model_single_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.2011209365">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="kernel_foo_N5" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N5_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N0" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N0_1" slr="">
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N2" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N2_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N1" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N1_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N3" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N3_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N4" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N4_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N6" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N6_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N7" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N7_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N8" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N8_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N9" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N9_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="kernel_foo_N5" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N5_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N0" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N0_1" slr="">
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N2" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N2_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N1" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N1_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N3" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N3_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N4" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N4_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N6" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N6_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N7" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N7_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N8" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N8_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N9" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N9_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.1193171034">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="kernel_foo_N5" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N5_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N0" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N0_1" slr="">
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N2" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N2_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N1" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N1_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N3" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N3_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N4" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N4_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N6" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N6_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N7" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N7_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N8" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N8_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N9" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N9_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.249084431">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="kernel_foo_N5" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N5_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N0" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N0_1" slr="">
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N2" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N2_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N1" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N1_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N3" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N3_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N4" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N4_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N6" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N6_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N7" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N7_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N8" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N8_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N9" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N9_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="kernel_foo_N5" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N5_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N0" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N0_1" slr="">
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N2" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N2_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N1" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N1_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N3" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N3_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N4" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N4_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N6" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N6_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N7" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N7_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N8" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N8_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+        <kernels name="kernel_foo_N9" projectName="comm_latency_model_single_kernels">
+          <computeUnits name="kernel_foo_N9_1" slr="">
+            <args name="X" master="true" memory=""/>
+            <args name="res" master="true" memory=""/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hostApp:AcceleratedHostProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hostApp="http://www.xilinx.com/acceleration/hostApplication" name="alveo_edge_detect_all" location="/home/tiagolascasas/workspaceVitis2021/alveo_edge_detect_all" platform="/opt/xilinx/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm" platformUID="xilinx:u250:xdma:201830.2" systemProject="alveo_edge_detect_all_system" sysConfig="config0_0" cpu="x86" cpuInstance="Unknown">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.sw_emu.x86.1909310907">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions"/>
+    <lastBuildOptions xsi:type="hostApp:HostApplicationOptions"/>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hw_emu.x86.1472868007" dirty="true">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw_emu"/>
+    <lastBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw_emu"/>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hw.x86.195951038">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw"/>
+    <lastBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw"/>
+  </configuration>
+</hostApp:AcceleratedHostProject>
