@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="alveo_edge_detect_generic_V0CE_system_hw_link" platform="/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm" platformUID="xilinx:u250:gen3x16_xdma_4_1:202210.1" systemProject="alveo_edge_detect_generic_V0CE_system" sysConfig="config0_0" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.1156819079">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.1456654042">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.80822743">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="edge_detect" projectName="alveo_edge_detect_generic_V0CE_kernels">
+          <computeUnits name="edge_detect_1" slr="">
+            <args name="image_rgb" master="true" memory=""/>
+            <args name="output" master="true" memory=""/>
+            <args name="width"/>
+            <args name="height"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

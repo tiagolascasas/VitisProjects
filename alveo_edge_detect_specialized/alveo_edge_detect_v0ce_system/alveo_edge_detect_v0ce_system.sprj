@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="alveo_edge_detect_v0ce_system" platform="/opt/xilinx/platforms/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm" platformUID="" sysConfig="config0_0">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.667129944">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="alveo_edge_detect_v0ce" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.259490158">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="alveo_edge_detect_v0ce" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
