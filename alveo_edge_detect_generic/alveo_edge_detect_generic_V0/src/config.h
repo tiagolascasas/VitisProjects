@@ -6,11 +6,16 @@
 #endif
 
 #define DEFAULT 0
-#define SD 1
-#define HD 2
-#define _2K 3
-#define QHD 4
-#define _4K 5
+#define CGA 1
+#define VGA 2
+#define WVGA 3
+#define SVGA 4
+#define HD 5
+
+// extra
+#define _2K 30
+#define QHD 40
+#define _4K 50
 
 #if SIZE == DEFAULT
 #define W 512
@@ -18,18 +23,39 @@
 #define T 40 // 127
 #define IMAGE "img_512_512.dat"
 #define CHECKSUM 3618195
-#elif SIZE == SD
+
+#elif SIZE == CGA
+#define W 320
+#define H 200
+#define T 40 // 127
+#define IMAGE "img_320_200.dat"
+#define CHECKSUM 1035555
+#elif SIZE == VGA
 #define W 640
 #define H 480
 #define T 40 // 127
 #define IMAGE "img_640_480.dat"
 #define CHECKSUM 1035555
+#elif SIZE == WVGA
+#define W 800
+#define H 480
+#define T 40 // 127
+#define IMAGE "img_800_480.dat"
+#define CHECKSUM 912900
+#elif SIZE == SVGA
+#define W 800
+#define H 600
+#define T 40 // 127
+#define IMAGE "img_800_600.dat"
+#define CHECKSUM 1106190
 #elif SIZE == HD
 #define W 1280
 #define H 720
 #define T 40 // 127
 #define IMAGE "img_1280_720.dat"
 #define CHECKSUM 866745
+
+//extra
 #elif SIZE == _2K
 #define W 1920
 #define H 1080
@@ -49,6 +75,7 @@
 #define IMAGE "img_3840_2160.dat"
 #define CHECKSUM 52785
 #endif
+
 
 // Universal params
 #define ITER 0 // 1000
