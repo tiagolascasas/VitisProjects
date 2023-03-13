@@ -4,12 +4,9 @@
 int checksum(int buf[H * W])
 {
     int n = 0;
-    for (int i = 0; i < H; i++)
+    for (int i = 0; i < H * W; i++)
     {
-        for (int j = 0; j < W; j++)
-        {
-            n += buf[W * i + j];
-        }
+    	n += buf[i];
     }
     printf("Checksum %s", n == CHECKSUM ? "SUCCESS" : "FAILURE");
     printf(" (actual: %d, expected: %d)\n", n, CHECKSUM);

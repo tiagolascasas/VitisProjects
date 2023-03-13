@@ -2,7 +2,7 @@
 
 // Image size
 #ifndef SIZE
-#define SIZE DEFAULT
+#define SIZE HD
 #endif
 
 #define DEFAULT 0
@@ -13,7 +13,7 @@
 #define HD 5
 
 // extra
-#define _2K 30
+#define FHD 30
 #define QHD 40
 #define _4K 50
 
@@ -29,51 +29,51 @@
 #define H 200
 #define T 40 // 127
 #define IMAGE "img_320_200.dat"
-#define CHECKSUM 1035555
+#define CHECKSUM 1104915
 #elif SIZE == VGA
 #define W 640
 #define H 480
 #define T 40 // 127
 #define IMAGE "img_640_480.dat"
-#define CHECKSUM 1035555
+#define CHECKSUM 1608540
 #elif SIZE == WVGA
 #define W 800
 #define H 480
 #define T 40 // 127
 #define IMAGE "img_800_480.dat"
-#define CHECKSUM 912900
+#define CHECKSUM 1411425
 #elif SIZE == SVGA
 #define W 800
 #define H 600
 #define T 40 // 127
 #define IMAGE "img_800_600.dat"
-#define CHECKSUM 1106190
+#define CHECKSUM 2590290
 #elif SIZE == HD
 #define W 1280
 #define H 720
 #define T 40 // 127
 #define IMAGE "img_1280_720.dat"
-#define CHECKSUM 866745
+#define CHECKSUM 3408585
 
-//extra
-#elif SIZE == _2K
+// extra
+#elif SIZE == FHD
 #define W 1920
 #define H 1080
 #define T 40 // 127
 #define IMAGE "img_1920_1080.dat"
-#define CHECKSUM 641835
+#define CHECKSUM 2478090
 #elif SIZE == QHD
 #define W 2560
 #define H 1440
 #define T 40 // 127
 #define IMAGE "img_2560_1440.dat"
-#define CHECKSUM 1411425
+#define CHECKSUM 5467200
 #elif SIZE == _4K
 #define W 3840
 #define H 2160
 #define T 40 // 127
 #define IMAGE "img_3840_2160.dat"
-#define CHECKSUM 52785
+#define CHECKSUM 49698735
 #endif
 
 // Universal params
@@ -88,7 +88,7 @@
 
 // Version-specific params
 #ifndef SCENARIO
-#define SCENARIO V0CE
+#define SCENARIO V0
 #endif
 
 #define V0 1

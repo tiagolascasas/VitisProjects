@@ -31,7 +31,7 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwlink.sw_emu.1441445401..1940615802" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.1209920245" managedBuildOn="true" name="Link Project Builder.Emulation-SW" superClass="com.xilinx.ide.accel.builder.link"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.1209920245" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Link Project Builder" superClass="com.xilinx.ide.accel.builder.link"/>
                             							
                             <tool id="com.xilinx.ide.accel.tool.hwLinker.1996051381" name="V++ Kernel Linker" superClass="com.xilinx.ide.accel.tool.hwLinker"/>
                             						
@@ -75,7 +75,7 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwlink.hw_emu.281660900..971633784" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Emulation-HW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.1728258830" managedBuildOn="true" name="Link Project Builder.Emulation-HW" superClass="com.xilinx.ide.accel.builder.link"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Emulation-HW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.1728258830" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Link Project Builder" superClass="com.xilinx.ide.accel.builder.link"/>
                             							
                             <tool id="com.xilinx.ide.accel.tool.hwLinker.948802039" name="V++ Kernel Linker" superClass="com.xilinx.ide.accel.tool.hwLinker"/>
                             						
@@ -119,9 +119,17 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwlink.hw.1872780891..725241137" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Hardware" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.55331376" managedBuildOn="true" name="Link Project Builder.Hardware" superClass="com.xilinx.ide.accel.builder.link"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_system_hw_link}/Hardware" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.link.55331376" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Link Project Builder" superClass="com.xilinx.ide.accel.builder.link"/>
                             							
-                            <tool id="com.xilinx.ide.accel.tool.hwLinker.11790716" name="V++ Kernel Linker" superClass="com.xilinx.ide.accel.tool.hwLinker"/>
+                            <tool id="com.xilinx.ide.accel.tool.hwLinker.11790716" name="V++ Kernel Linker" superClass="com.xilinx.ide.accel.tool.hwLinker">
+                                								
+                                <option id="com.xilinx.accelerated.toolchain.hw_linker.other_flags.1392249026" superClass="com.xilinx.accelerated.toolchain.hw_linker.other_flags" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="--kernel_frequency 200"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
                             						
                         </toolChain>
                         					

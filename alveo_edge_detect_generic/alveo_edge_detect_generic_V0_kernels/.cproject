@@ -31,7 +31,7 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwkernel.sw_emu.517091117..928117556" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.793864311" managedBuildOn="true" name="Kernel Project Builder.Emulation-SW" superClass="com.xilinx.ide.accel.builder.kernel"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.793864311" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Kernel Project Builder" superClass="com.xilinx.ide.accel.builder.kernel"/>
                             							
                             <tool id="com.xilinx.ide.accel.tool.hwKernelCompiler.1932894606" name="V++ Kernel Compiler" superClass="com.xilinx.ide.accel.tool.hwKernelCompiler">
                                 								
@@ -79,7 +79,7 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwkernel.hw_emu.1060066600..1150916628" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Emulation-HW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.1608396409" managedBuildOn="true" name="Kernel Project Builder.Emulation-HW" superClass="com.xilinx.ide.accel.builder.kernel"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Emulation-HW" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.1608396409" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Kernel Project Builder" superClass="com.xilinx.ide.accel.builder.kernel"/>
                             							
                             <tool id="com.xilinx.ide.accel.tool.hwKernelCompiler.1617257968" name="V++ Kernel Compiler" superClass="com.xilinx.ide.accel.tool.hwKernelCompiler">
                                 								
@@ -127,9 +127,15 @@
                             							
                             <targetPlatform id="com.xilinx.ide.accel.config.hwkernel.hw.816623667..1882632923" name=""/>
                             							
-                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Hardware" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.1622839384" managedBuildOn="true" name="Kernel Project Builder.Hardware" superClass="com.xilinx.ide.accel.builder.kernel"/>
+                            <builder buildPath="${workspace_loc:/alveo_edge_detect_generic_V0_kernels}/Hardware" enableAutoBuild="true" id="com.xilinx.ide.accel.builder.kernel.1622839384" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Kernel Project Builder" superClass="com.xilinx.ide.accel.builder.kernel"/>
                             							
                             <tool id="com.xilinx.ide.accel.tool.hwKernelCompiler.1056103403" name="V++ Kernel Compiler" superClass="com.xilinx.ide.accel.tool.hwKernelCompiler">
+                                								
+                                <option id="com.xilinx.accelerated.toolchain.hw_compiler.other_flags.1475952491" superClass="com.xilinx.accelerated.toolchain.hw_compiler.other_flags" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="--kernel_frequency 200"/>
+                                    								
+                                </option>
                                 								
                                 <inputType id="com.xilinx.accelerated.toolchain.hw_compiler.input.cl.561701795" name="OpenCL files" superClass="com.xilinx.accelerated.toolchain.hw_compiler.input.cl"/>
                                 							

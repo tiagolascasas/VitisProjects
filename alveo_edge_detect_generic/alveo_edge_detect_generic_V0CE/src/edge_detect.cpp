@@ -30,38 +30,23 @@ void edge_detect(int image_rgb[H * W * 3], int output[H * W], int width, int hei
 	q.enqueueTask(krnl_edge_detect);
 	q.finish();
 
-	q.enqueueMigrateMemObjects( { buffer_image_rgb, buffer_output }, CL_MIGRATE_MEM_OBJECT_HOST);
+	q.enqueueMigrateMemObjects( { buffer_output }, CL_MIGRATE_MEM_OBJECT_HOST);
 	q.finish();
 }
 
-int main_original() {
-	int image_rgb[H * W * 3] = {
+int image_rgb[H * W * 3] = {
 #include IMAGE
-			};
-//	int* image_rgb = new int[H * W * 3];
-#ifdef MAIN_ALL
-	int* image_gray = new int[H * W];// = { 0 };
-	int* temp_buf = new int[H * W];// = { 0 };
-	int* filter = new int[K * K];// = { 0 };
-#endif
-	//int* output = new int[H * W];
-	int output[H * W] = { 0 };
+		};
+int* output = new int[H * W];
 
-#ifdef OUTS
-	output_dsp_rgb(image_rgb, "input.dat");
-#endif
-
+int main_original() {
 	auto start = high_resolution_clock::now();
 #if ITER > 0
 	int i;
 	for (i = 0; i < ITER; i++)
 	{
 #endif
-	edge_detect(image_rgb,
-#ifdef MAIN_ALL
-			image_gray, temp_buf, filter,
-#endif
-			output, W, H);
+	edge_detect(image_rgb, output, W, H);
 #if ITER > 0
 }
 #endif
@@ -69,13 +54,14 @@ int main_original() {
 	auto duration = duration_cast<microseconds>(stop - start);
 	std::cout << "Duration: " << duration.count() << std::endl;
 
-	int actual = 0;
-	int real = CHECKSUM;
-	for (int i = 0; i < 262144; i++) {
-		actual += output[i];
-	}
-	cout << "Checksum: expected = " << real << ", actual = " << actual
-			<< (real == actual ? " (VERIFIED)" : " (ERROR)") << endl;
+    int actual = 0;
+    int real = CHECKSUM;
+    for (int i = 0; i < H * W; i++)
+    {
+        actual += output[i];
+    }
+    cout << "Edge detect for " << W << "x" << H << " image finished" << endl;
+    cout << "Checksum: expected = " << real << ", actual = " << actual << (real == actual ? " (VERIFIED)" : " (ERROR)") << endl;
 
 	return 0;
 }
